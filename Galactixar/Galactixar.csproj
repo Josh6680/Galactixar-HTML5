@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A18CC766-A3B1-43CD-A103-67509393AFCA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Galactixar</RootNamespace>
+    <AssemblyName>Galactixar</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\images\backdrops\Nebula1.png" />
+    <Content Include="assets\images\backdrops\Nebula2.png" />
+    <Content Include="assets\images\backdrops\Nebula3.png" />
+    <Content Include="assets\images\backdrops\Stars1.png" />
+    <Content Include="assets\images\backdrops\Stars2.png" />
+    <Content Include="assets\images\backdrops\Stars3.png" />
+    <Content Include="assets\images\backdrops\Stars4.png" />
+    <Content Include="assets\images\buttons\back.png" />
+    <Content Include="assets\images\buttons\instructions.png" />
+    <Content Include="assets\images\buttons\mainmenu.png" />
+    <Content Include="assets\images\buttons\playgame.png" />
+    <Content Include="assets\images\buttons\tryagain.png" />
+    <Content Include="assets\images\buttons_sheet.png" />
+    <Content Include="assets\images\cursors\default.png" />
+    <Content Include="assets\images\cursors\pointer.png" />
+    <Content Include="assets\images\overlays\warpoverlay.png" />
+    <Content Include="assets\images\pickups\pickup1.png" />
+    <Content Include="assets\images\loading.gif" />
+    <Content Include="assets\images\panels\panel-1.png" />
+    <Content Include="assets\images\panels\panel-2.png" />
+    <Content Include="assets\images\panels\panel-3.png" />
+    <Content Include="assets\images\panels\panel-4.png" />
+    <Content Include="assets\images\panels\panel-5.png" />
+    <Content Include="assets\images\pickups_sheet.png" />
+    <Content Include="assets\images\projectiles\greenlaser1.png" />
+    <Content Include="assets\images\projectiles\greenlaser2.png" />
+    <Content Include="assets\images\projectiles\greenlaser3.png" />
+    <Content Include="assets\images\projectiles\greenlaser4.png" />
+    <Content Include="assets\images\projectiles\greenlaser5.png" />
+    <Content Include="assets\images\projectiles\greenlaser6.png" />
+    <Content Include="assets\images\projectiles\redlaser1.png" />
+    <Content Include="assets\images\projectiles\redlaser2.png" />
+    <Content Include="assets\images\projectiles\redlaser3.png" />
+    <Content Include="assets\images\projectiles\redlaser4.png" />
+    <Content Include="assets\images\projectiles\redlaser5.png" />
+    <Content Include="assets\images\projectiles\redlaser6.png" />
+    <Content Include="assets\images\projectiles_sheet.png" />
+    <Content Include="assets\images\shields\shield1.png" />
+    <Content Include="assets\images\shields\shield2.png" />
+    <Content Include="assets\images\shields\shield3.png" />
+    <Content Include="assets\images\shields\shield4.png" />
+    <Content Include="assets\images\shields\shield5.png" />
+    <Content Include="assets\images\shields\shield6.png" />
+    <Content Include="assets\images\shields\shield7.png" />
+    <Content Include="assets\images\shields\shield8.png" />
+    <Content Include="assets\images\shields_sheet.png" />
+    <Content Include="assets\images\spaceships\greenish\ship1.png" />
+    <Content Include="assets\images\spaceships\greenish\ship2.png" />
+    <Content Include="assets\images\spaceships\greenish\ship3.png" />
+    <Content Include="assets\images\spaceships\greenish\ship4.png" />
+    <Content Include="assets\images\spaceships\greenish\ship5.png" />
+    <Content Include="assets\images\spaceships\greenish\ship6.png" />
+    <Content Include="assets\images\spaceships\greenish\ship7.png" />
+    <Content Include="assets\images\spaceships\greenish\ship8.png" />
+    <Content Include="assets\images\spaceships\redish\ship1.png" />
+    <Content Include="assets\images\spaceships\redish\ship2.png" />
+    <Content Include="assets\images\spaceships\redish\ship3.png" />
+    <Content Include="assets\images\spaceships\redish\ship4.png" />
+    <Content Include="assets\images\spaceships\redish\ship5.png" />
+    <Content Include="assets\images\spaceships\redish\ship6.png" />
+    <Content Include="assets\images\spaceships\redish\ship7.png" />
+    <Content Include="assets\images\spaceships\redish\ship8.png" />
+    <Content Include="assets\images\spaceships\yellowish\ship1.png" />
+    <Content Include="assets\images\spaceships\yellowish\ship2.png" />
+    <Content Include="assets\images\spaceships\yellowish\ship3.png" />
+    <Content Include="assets\images\spaceships\yellowish\ship4.png" />
+    <Content Include="assets\images\spaceships\yellowish\ship5.png" />
+    <Content Include="assets\images\spaceships\yellowish\ship6.png" />
+    <Content Include="assets\images\spaceships\yellowish\ship7.png" />
+    <Content Include="assets\images\spaceships\yellowish\ship8.png" />
+    <Content Include="assets\images\spaceships_sheet.png" />
+    <Content Include="assets\sounds\Afterburner-Soundtrack-by-copyc4t.ogg" />
+    <Content Include="assets\sounds\Explosion.wav" />
+    <Content Include="assets\sounds\Explosion2.wav" />
+    <Content Include="assets\sounds\Laser1.wav" />
+    <Content Include="assets\sounds\Laser2.wav" />
+    <Content Include="assets\sounds\Powerup.wav" />
+    <Content Include="assets\images\spaceships\spaceships.tps" />
+    <Content Include="assets\images\buttons\buttons.tps" />
+    <Content Include="assets\images\buttons\mainmenu.xcf" />
+    <Content Include="assets\images\buttons_sheet.json" />
+    <Content Include="assets\images\spaceships_sheet.json" />
+    <Content Include="assets\images\projectiles_sheet.json" />
+    <Content Include="assets\images\projectiles\projectiles.tps" />
+    <Content Include="assets\images\pickups\pickup1.xcf" />
+    <Content Include="assets\images\pickups\pickups.tps" />
+    <Content Include="assets\images\backdrops\Stars.xcf" />
+    <Content Include="assets\images\pickups_sheet.json" />
+    <Content Include="assets\images\buttons\back.xcf" />
+    <Content Include="assets\images\buttons\instructions.xcf" />
+    <Content Include="assets\images\buttons\playgame.xcf" />
+    <Content Include="assets\images\buttons\tryagain.xcf" />
+    <Content Include="assets\images\shields\shields.tps" />
+    <Content Include="assets\images\shields_sheet.json" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\app.css" />
+    <Content Include="css\normalize.css" />
+    <Content Include="index.html" />
+    <Content Include="packages.config" />
+    <None Include="scripts\_references.js" />
+    <Content Include="scripts\lib\easeljs-0.7.1.min.js" />
+    <Content Include="scripts\lib\preloadjs-0.4.1.min.js" />
+    <Content Include="scripts\lib\soundjs-0.5.2.min.js" />
+    <Content Include="scripts\lib\tweenjs-0.5.1.min.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <TypeScriptCompile Include="scripts\constants.ts" />
+    <TypeScriptCompile Include="scripts\game.ts" />
+    <TypeScriptCompile Include="scripts\lib\createjs-lib.d.ts" />
+    <TypeScriptCompile Include="scripts\lib\easeljs.d.ts" />
+    <TypeScriptCompile Include="scripts\lib\preloadjs.d.ts" />
+    <TypeScriptCompile Include="scripts\lib\soundjs.d.ts" />
+    <TypeScriptCompile Include="scripts\lib\tweenjs.d.ts" />
+    <TypeScriptCompile Include="scripts\managers\asset.ts" />
+    <TypeScriptCompile Include="scripts\managers\collision.ts" />
+    <TypeScriptCompile Include="scripts\objects\button.ts" />
+    <TypeScriptCompile Include="scripts\objects\shield.ts" />
+    <TypeScriptCompile Include="scripts\objects\enemy.ts" />
+    <TypeScriptCompile Include="scripts\objects\gameobject.ts" />
+    <TypeScriptCompile Include="scripts\objects\projectile.ts" />
+    <TypeScriptCompile Include="scripts\objects\pickup.ts" />
+    <TypeScriptCompile Include="scripts\objects\label.ts" />
+    <TypeScriptCompile Include="scripts\objects\nebula.ts" />
+    <TypeScriptCompile Include="scripts\objects\warpeffect.ts" />
+    <TypeScriptCompile Include="scripts\objects\stars.ts" />
+    <TypeScriptCompile Include="scripts\objects\ship.ts" />
+    <TypeScriptCompile Include="scripts\objects\scoreboard.ts" />
+    <TypeScriptCompile Include="scripts\states\gameover.ts" />
+    <TypeScriptCompile Include="scripts\states\instructions.ts" />
+    <TypeScriptCompile Include="scripts\states\menu.ts" />
+    <TypeScriptCompile Include="scripts\states\play.ts" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>True</TypeScriptRemoveComments>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptNoImplicitAny>True</TypeScriptNoImplicitAny>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptNoImplicitAny>True</TypeScriptNoImplicitAny>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1337</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1337/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

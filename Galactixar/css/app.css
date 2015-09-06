@@ -1,0 +1,16 @@
+﻿body {
+    /* Make the page background spacey-black */
+    background-color: black;
+}
+
+#canvas {
+    /* Gives the game a nice looking white border */
+    border: solid 1px white;
+    /* Defaults the canvas to have a white background and loading indicator until it is drawn over */
+    background-color: white;
+    background-image: url("../assets/images/loading.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Sets the default cursor to the custom one */
+    cursor: url('../assets/images/cursors/default.png'), default;
+}

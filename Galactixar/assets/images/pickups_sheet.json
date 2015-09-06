@@ -1,0 +1,15 @@
+{
+"images": ["assets/images/pickups_sheet.png"],
+"frames": [
+
+    [2, 2, 47, 41]
+],
+"animations": {
+    
+        "pickup1":[0]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:544bec742486f68834cc6c6e56c2270e:4977cbcb542423aec8aefc5d5f139a16:3ae7c59c499747dae81e986c7f2d4425$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

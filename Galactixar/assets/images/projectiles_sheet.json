@@ -1,0 +1,37 @@
+{
+"images": ["assets/images/projectiles_sheet.png"],
+"frames": [
+
+    [2, 30, 17, 33], 
+    [43, 30, 18, 24], 
+    [24, 107, 21, 19], 
+    [2, 100, 20, 26], 
+    [44, 56, 17, 21], 
+    [2, 2, 22, 26], 
+    [21, 58, 21, 21], 
+    [24, 81, 18, 24], 
+    [2, 65, 17, 33], 
+    [21, 30, 20, 26], 
+    [44, 79, 17, 21], 
+    [26, 2, 22, 26]
+],
+"animations": {
+    
+        "greenlaser1":[0], 
+        "greenlaser2":[1], 
+        "greenlaser3":[2], 
+        "greenlaser4":[3], 
+        "greenlaser5":[4], 
+        "greenlaser6":[5], 
+        "redlaser1":[6], 
+        "redlaser2":[7], 
+        "redlaser3":[8], 
+        "redlaser4":[9], 
+        "redlaser5":[10], 
+        "redlaser6":[11]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:ab349737a316919d9889311a2ef4af16:6694d84a244844264bb4a77d9faa10f9:bad0db1661ab32078ebd2db57eac33ee$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

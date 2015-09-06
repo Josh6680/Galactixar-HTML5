@@ -1,0 +1,29 @@
+{
+"images": ["shields_sheet.png"],
+"frames": [
+
+    [2, 2, 57, 47], 
+    [61, 2, 49, 48], 
+    [112, 2, 49, 49], 
+    [163, 2, 57, 50], 
+    [2, 54, 47, 53], 
+    [51, 54, 49, 55], 
+    [102, 54, 73, 56], 
+    [177, 54, 55, 61]
+],
+"animations": {
+    
+        "shield4":[0], 
+        "shield1":[1], 
+        "shield2":[2], 
+        "shield6":[3], 
+        "shield3":[4], 
+        "shield5":[5], 
+        "shield8":[6], 
+        "shield7":[7]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:2045d5aa1d653ba87ad2dcf78058d053:be9140544a1fa8354b2b4c65e9f61e22:ae898ce3bec1ad975d20806547eff835$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

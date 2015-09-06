@@ -1,0 +1,23 @@
+{
+"images": ["buttons_sheet.png"],
+"frames": [
+
+    [2, 2, 153, 53], 
+    [157, 2, 153, 53], 
+    [312, 2, 153, 53], 
+    [467, 2, 153, 53], 
+    [622, 2, 153, 53]
+],
+"animations": {
+    
+        "back":[0], 
+        "instructions":[1], 
+        "mainmenu":[2], 
+        "playgame":[3], 
+        "tryagain":[4]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:15e1c3316d4bc30eeada348f88788e89:78271ac21e6267f650f7396645bf926b:413b3febd2521af9da3a1c489ab7393a$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

@@ -1,0 +1,61 @@
+{
+"images": ["assets/images/spaceships_sheet.png"],
+"frames": [
+
+    [887, 2, 43, 33], 
+    [776, 2, 35, 34], 
+    [2, 2, 41, 47], 
+    [530, 2, 43, 36], 
+    [314, 2, 35, 41], 
+    [425, 2, 33, 39], 
+    [665, 2, 35, 35], 
+    [131, 2, 59, 42], 
+    [932, 2, 43, 33], 
+    [813, 2, 35, 34], 
+    [45, 2, 41, 47], 
+    [575, 2, 43, 36], 
+    [351, 2, 35, 41], 
+    [460, 2, 33, 39], 
+    [702, 2, 35, 35], 
+    [192, 2, 59, 42], 
+    [977, 2, 43, 33], 
+    [850, 2, 35, 34], 
+    [88, 2, 41, 47], 
+    [620, 2, 43, 36], 
+    [388, 2, 35, 41], 
+    [495, 2, 33, 39], 
+    [739, 2, 35, 35], 
+    [253, 2, 59, 42]
+],
+"animations": {
+    
+        "greenish/ship1":[0], 
+        "greenish/ship2":[1], 
+        "greenish/ship3":[2], 
+        "greenish/ship4":[3], 
+        "greenish/ship5":[4], 
+        "greenish/ship6":[5], 
+        "greenish/ship7":[6], 
+        "greenish/ship8":[7], 
+        "redish/ship1":[8], 
+        "redish/ship2":[9], 
+        "redish/ship3":[10], 
+        "redish/ship4":[11], 
+        "redish/ship5":[12], 
+        "redish/ship6":[13], 
+        "redish/ship7":[14], 
+        "redish/ship8":[15], 
+        "yellowish/ship1":[16], 
+        "yellowish/ship2":[17], 
+        "yellowish/ship3":[18], 
+        "yellowish/ship4":[19], 
+        "yellowish/ship5":[20], 
+        "yellowish/ship6":[21], 
+        "yellowish/ship7":[22], 
+        "yellowish/ship8":[23]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:1f22d54f8595d7399552942694ca887f:810ce777d92dc0c5148dc07e658c3480:780b733e31b1f84aed4f6c4c0c69b477$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}
